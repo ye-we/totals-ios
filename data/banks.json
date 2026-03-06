@@ -1,6 +1,18 @@
 {
   "banks": [
     {
+      "id": 0,
+      "name": "Cash",
+      "shortName": "Cash",
+      "codes": [],
+      "image": "",
+      "maskPattern": 0,
+      "uniformMasking": false,
+      "simBased": false,
+      "virtual": true,
+      "colors": ["#6b7280", "#4b5563"]
+    },
+    {
       "id": 1,
       "name": "Commercial Bank Of Ethiopia",
       "shortName": "CBE",
