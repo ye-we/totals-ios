@@ -556,7 +556,7 @@
     {
       "bankId": 4,
       "senderId": "Dashen",
-      "regex": "(?<sender>[A-Z][A-Z ]+)\\s+has\\s+deposited\\s+ETB\\s+(?<amount>[\\d,.]+)\\s+to\\s+your\\s+account\\s+'(?<account>[\\d\\*]+)'\\s+on\\s+(?<date>\\d{2}\\/\\d{2}\\/\\d{4})\\s+at\\s+\\d{2}:\\d{2}:\\d{2}\\s+[AP]M.*?current\\s+balance\\s+is\\s+ETB\\s+(?<balance>[\\d,]+\\.\\d{2})",
+      "regex": "(?<sender>[A-Z][A-Z ]+)\\s+has\\s+deposited\\s+ETB\\s+(?<amount>[\\d,.]+)\\s+to\\s+your\\s+account\\s+'(?<account>[\\d\\*]+)'\\s+on\\s+(?<date>\\d{2}\\/\\d{2}\\/\\d{4})(?:\\s+at\\s+\\d{2}:\\d{2}:\\d{2}\\s+[AP]M)?.*?current\\s+balance\\s+is\\s+ETB\\s+(?<balance>[\\d,]+\\.\\d{2})",
       "type": "CREDIT",
       "description": "Dashen Deposit Credit",
       "refRequired": false,
