@@ -1,7 +1,7 @@
 # Totals for iOS
 
 <p align="center">
-  <img src="totals.png" alt="Totals app screenshots" width="600" />
+  <img src="totals.png" alt="Totals app screenshots" width="400" />
 </p>
 
 A personal finance tracker for Ethiopian banks. It reads your bank SMS notifications and turns them into a clear, organized dashboard across all your banks, in one place.
